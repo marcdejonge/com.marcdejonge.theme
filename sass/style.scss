@@ -1,1 +1,9 @@
+@import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-compass';
 @import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+
+@media (max-width:$screen-xs-max) {
+	.row > [class*="col-"] { margin-bottom:3%; }
+	form .row > [class*="col-"] { margin-bottom:2%; }
+	.form-group { margin-bottom: 1% !important; }
+	.form-inline .form-control { margin-bottom:2%; }
+}
