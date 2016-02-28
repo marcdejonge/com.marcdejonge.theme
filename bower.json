@@ -1,0 +1,21 @@
+{
+  "name": "com.marcdejonge.theme",
+  "homepage": "https://www.marcdejonge.com",
+  "authors": [
+    "Marc de Jonge <marcdejonge@gmail.com>"
+  ],
+  "description": "The theme for my website",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6"
+  }
+}
