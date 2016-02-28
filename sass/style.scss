@@ -7,3 +7,15 @@
 	.form-group { margin-bottom: 1% !important; }
 	.form-inline .form-control { margin-bottom:2%; }
 }
+
+.msgbox {
+	border: 1px solid $gray;
+	border-radius: .5em;
+	padding-left: .75em;
+	padding-right: .75em;
+}
+
+.msgbox.bg-success { border-color: $btn-success-border; }
+.msgbox.bg-info { border-color: $btn-info-border; }
+.msgbox.bg-warning { border-color: $btn-warning-border; }
+.msgbox.bg-danger { border-coler: $btn-danger-border; }
