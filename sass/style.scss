@@ -19,3 +19,11 @@
 .msgbox.bg-info { border-color: $btn-info-border; }
 .msgbox.bg-warning { border-color: $btn-warning-border; }
 .msgbox.bg-danger { border-coler: $btn-danger-border; }
+
+body {
+	background: #ddd;
+}
+
+#content {
+	background: white;
+}
